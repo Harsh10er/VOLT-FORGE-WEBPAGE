@@ -1,38 +1,53 @@
-🔥 VoltForge Webpage
+🔥 VoltForge Tech Blog
 
-A modern web portal for VoltForge, showcasing features, dashboards, and content related to PC gaming performance tracking. Built with React, Tailwind CSS, and Vite.
+A modern tech blog website for sharing the latest technology news, tutorials, and insights. Built with React, Tailwind CSS, and Vite.
 
 🎯 Overview
 
-The VoltForge Webpage is a polished website for the VoltForge platform, providing:
+VoltForge Tech Blog is a platform for tech enthusiasts to:
 
-Information about the VoltForge app
+Read in-depth articles and tutorials
 
-Interactive dashboards and content previews
+Discover trending topics in technology
 
-User profiles and session data summaries
+Browse and filter content by categories
 
-Smooth navigation and responsive design
+Interact with content via user profiles, comments, and activity feeds
 
-This website is primarily a frontend showcase for VoltForge features, built for web visitors and potential users.
+It is fully responsive, fast, and optimized for reading and browsing.
 
 ✨ Features
+📚 Content
 
-Homepage: Showcase key app features and latest updates
+Homepage displaying trending articles and categories
 
-User Profiles: Display user activity, achievements, and statistics
+Article pages with structured content, related articles, and social sharing
 
-Analytics Dashboard Preview: Interactive content showing performance metrics
+Search results and filtering for easy discovery
 
-Content Pages: Detailed article reading, content creation, and search results
+👤 User Interaction
 
-Responsive Design: Fully optimized for desktop and mobile screens
+User profiles with activity feeds, followers, and achievements
 
-Dark/Light Mode Ready: Tailwind-based styling
+Comment management and moderation
+
+📊 Dashboards
+
+Analytics-style content previews
+
+Quick stats and recent activity for logged-in users
+
+🖥️ Tech & Design
+
+Mobile-first, responsive design
+
+Smooth navigation with sidebar and header components
+
+Dark/light mode ready
 
 🚀 Tech Stack
 
-Frontend: React 19.1.1
+Frontend: React 19.1.1 with hooks
 
 Styling: Tailwind CSS 4.1.12
 
@@ -40,31 +55,31 @@ Routing: React Router DOM
 
 Build Tool: Vite 7.1.2
 
-Components: Reusable UI components for buttons, cards, and navigation
+Components: Reusable UI components for articles, cards, buttons, and forms
 
 📁 Project Structure
 voltforge-webpage/
 ├── src/
 │   ├── components/       # Reusable UI components
-│   ├── pages/            # Page-level components
+│   ├── pages/            # Blog, dashboard, article, profile pages
 │   ├── styles/           # Tailwind and global CSS
 │   ├── utils/            # Helper functions
 │   ├── App.jsx           # Main app component
-│   └── index.jsx         # Entry point
-├── public/               # Static assets
+│   └── index.jsx         # App entry point
+├── public/               # Static assets (images, favicon, etc.)
 ├── package.json          # Dependencies & scripts
 └── vite.config.js        # Vite configuration
 
 🛠 Installation & Setup
 Prerequisites
 
-Node.js (v16 or higher)
+Node.js (v16+)
 
 npm or yarn
 
 Steps
 
-Clone the repository
+Clone the repo
 
 git clone https://github.com/Harsh10er/VOLT-FORGE-WEBPAGE.git
 cd VOLT-FORGE-WEBPAGE
@@ -75,7 +90,7 @@ Install dependencies
 npm install
 
 
-Start the development server
+Start development server
 
 npm run dev
 
@@ -104,15 +119,15 @@ dist/
 
 Fork the repository
 
-Create a new branch: git checkout -b feature/your-feature
+Create a feature branch: git checkout -b feature/your-feature
 
 Commit changes: git commit -m "Add feature"
 
-Push: git push origin feature/your-feature
+Push branch: git push origin feature/your-feature
 
 Open a Pull Request
 
 📄 License
 
-This project is licensed under MIT License – see the LICENSE
- file for details.
+MIT License – see LICENSE
+ file for details
